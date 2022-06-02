@@ -72,7 +72,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 	if m.Content == "!spectrum" {
 		// tribute to a good person
-		s.ChannelMessageSend(m.ChannelID, "hes a very fucking awesome gentleman!")
+		s.ChannelMessageSend(m.ChannelID, "blazing fast!!!!")
 	}
 
 	if m.Content == "!editor" {
@@ -114,7 +114,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 			fmt.Sprint(
 				"!what: what is this? \n",
 				"!secret: tells you a secret. \n",
-				"!︻デ-═一: shoots the fuck out of everything. \n",
+				"!︻デ-═一: shoots everything. \n",
 				"!editor: shows m's editor. \n",
 				"!gn: goodnight meme. \n",
 				"!meme: random meme. \n",
